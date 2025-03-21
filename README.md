@@ -6,7 +6,7 @@ To get this working, ensure ROS2 is installed then go into the root directory Ro
 
 Before anything, you must source the files. run **source install/setup.bash** in the root folder /Robot.
 
-This program uses cmake cache to make builds run faster, but for the first run you **must** perform a clean build. Run the command **colcon build --cmake-clean-cache** in the root directory (/Robot).
+This program uses cmake cache to make builds run faster, but for the first run you **must** perform a clean build. Run the command **colcon build --cmake-clean-cache** in the root directory (/Robot). If you perform this build anywhere else, the launch python file will be deleted. A backup was placed in case this happens.
 
 The robot is a 6 DOF robot with links,joints, and limits. The limits are there to prevent the robot from colliding with itself and performing unnatural transformations.
 
