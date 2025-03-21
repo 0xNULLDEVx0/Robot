@@ -1,0 +1,11 @@
+/home/master/Documents/Code/learnRos/build/six_axis_pubsub/CMakeFiles/uninstall.dir
+/home/master/Documents/Code/learnRos/build/six_axis_pubsub/CMakeFiles/six_axis_pubsub_uninstall.dir
+/home/master/Documents/Code/learnRos/build/six_axis_pubsub/CMakeFiles/arm_controller.dir
+/home/master/Documents/Code/learnRos/build/six_axis_pubsub/CMakeFiles/teleop_node.dir
+/home/master/Documents/Code/learnRos/build/six_axis_pubsub/CMakeFiles/test.dir
+/home/master/Documents/Code/learnRos/build/six_axis_pubsub/CMakeFiles/edit_cache.dir
+/home/master/Documents/Code/learnRos/build/six_axis_pubsub/CMakeFiles/rebuild_cache.dir
+/home/master/Documents/Code/learnRos/build/six_axis_pubsub/CMakeFiles/list_install_components.dir
+/home/master/Documents/Code/learnRos/build/six_axis_pubsub/CMakeFiles/install.dir
+/home/master/Documents/Code/learnRos/build/six_axis_pubsub/CMakeFiles/install/local.dir
+/home/master/Documents/Code/learnRos/build/six_axis_pubsub/CMakeFiles/install/strip.dir

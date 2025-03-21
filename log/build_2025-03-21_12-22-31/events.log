@@ -1,0 +1,85 @@
+[0.000000] (-) TimerEvent: {}
+[0.000340] (six_axis_pubsub) JobQueued: {'identifier': 'six_axis_pubsub', 'dependencies': OrderedDict()}
+[0.000453] (six_axis_pubsub) JobStarted: {'identifier': 'six_axis_pubsub'}
+[0.006685] (six_axis_pubsub) JobProgress: {'identifier': 'six_axis_pubsub', 'progress': 'cmake'}
+[0.007104] (six_axis_pubsub) JobProgress: {'identifier': 'six_axis_pubsub', 'progress': 'build'}
+[0.007544] (six_axis_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/master/Documents/Code/learnRos/build/six_axis_pubsub', '--', '-j48', '-l48'], 'cwd': '/home/master/Documents/Code/learnRos/build/six_axis_pubsub', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'master', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib::/home/master/.local/share/JetBrains/Toolbox/apps/fleet/lib/app', 'HOME': '/home/master', 'TERM_PROGRAM_VERSION': '1.46.97', 'DESKTOP_SESSION': 'ubuntu', '_INTELLIJ_FORCE_SET_FLEET_WORKSPACE_ID': 'hgbuta5o2njfhi71tlh7', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/master/.local/share/applications/jetbrains-fleet.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '3267', 'FLEET_WORKSPACE_ID': 'hgbuta5o2njfhi71tlh7', 'SYSTEMD_EXEC_PID': '3693', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '47740', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/master/Documents/Code/learnRos/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'master', 'WINDOWID': '0', 'JOURNAL_STREAM': '9:16147', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'master', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'HISTCONTROL': 'ignoredups:', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/master/.local/share/JetBrains/Toolbox/scripts:/home/master/.local/share/JetBrains/Toolbox/scripts', 'SESSION_MANAGER': 'local/penguin-master:@/tmp/.ICE-unix/3662,unix/penguin-master:/tmp/.ICE-unix/3662', 'INVOCATION_ID': '39197631037541e39a520170e160a663', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', '_JPACKAGE_LAUNCHER': '0', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'TERM_PROGRAM': 'Jetbrains.Fleet', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/master/Documents/Code/learnRos/install/six_axis_pubsub:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'ALACRITTY_WINDOW_ID': '0', 'PWD': '/home/master/Documents/Code/learnRos/build/six_axis_pubsub', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/master/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/master/Documents/Code/learnRos/install/six_axis_pubsub:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.068160] (six_axis_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/teleop_node.dir/src/teleop_node.cpp.o\x1b[0m\n'}
+[0.078632] (six_axis_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/arm_controller.dir/src/arm_controller.cpp.o\x1b[0m\n'}
+[0.099826] (-) TimerEvent: {}
+[0.200047] (-) TimerEvent: {}
+[0.300327] (-) TimerEvent: {}
+[0.400663] (-) TimerEvent: {}
+[0.500968] (-) TimerEvent: {}
+[0.601287] (-) TimerEvent: {}
+[0.701641] (-) TimerEvent: {}
+[0.801944] (-) TimerEvent: {}
+[0.902243] (-) TimerEvent: {}
+[1.002572] (-) TimerEvent: {}
+[1.102881] (-) TimerEvent: {}
+[1.203210] (-) TimerEvent: {}
+[1.303568] (-) TimerEvent: {}
+[1.403888] (-) TimerEvent: {}
+[1.504205] (-) TimerEvent: {}
+[1.604557] (-) TimerEvent: {}
+[1.704878] (-) TimerEvent: {}
+[1.708155] (six_axis_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/arm_controller.cpp:50:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kjoint_states_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.708521] (six_axis_pubsub) StderrLine: {'line': b'   50 |     \x1b[01;31m\x1b[Kjoint_states_\x1b[m\x1b[K.header.stamp = this->get_clock()->now();\n'}
+[1.708682] (six_axis_pubsub) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.711220] (six_axis_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/arm_controller.cpp:51:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kjoint_state_publisher_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.711402] (six_axis_pubsub) StderrLine: {'line': b'   51 |     \x1b[01;31m\x1b[Kjoint_state_publisher_\x1b[m\x1b[K->publish(joint_states_);\n'}
+[1.711575] (six_axis_pubsub) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.717265] (six_axis_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/arm_controller.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KArmController::\x1b[01;32m\x1b[KArmController\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.717458] (six_axis_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/arm_controller.cpp:11:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.717603] (six_axis_pubsub) StderrLine: {'line': b'   11 |         \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K = this->create_subscription<trajectory_msgs::msg::JointTrajectory>(\n'}
+[1.717734] (six_axis_pubsub) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.717866] (six_axis_pubsub) StderrLine: {'line': b'      |         \x1b[32m\x1b[Krmw_subscription_t\x1b[m\x1b[K\n'}
+[1.748752] (six_axis_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/arm_controller.cpp:16:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kjoint_state_publisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.749013] (six_axis_pubsub) StderrLine: {'line': b'   16 |         \x1b[01;31m\x1b[Kjoint_state_publisher_\x1b[m\x1b[K = this->create_publisher<sensor_msgs::msg::JointState>("/joint_states", 10);\n'}
+[1.749151] (six_axis_pubsub) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.755379] (six_axis_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/arm_controller.cpp:19:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kjoint_states_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.755546] (six_axis_pubsub) StderrLine: {'line': b'   19 |         \x1b[01;31m\x1b[Kjoint_states_\x1b[m\x1b[K.name = {"joint_1", "joint_2", "joint_3", "joint_4", "joint_5", "joint_6"};\n'}
+[1.755684] (six_axis_pubsub) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.762515] (six_axis_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/arm_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ArmController::\x1b[01;32m\x1b[Ktrajectory_callback\x1b[m\x1b[K(trajectory_msgs::msg::JointTrajectory_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.762723] (six_axis_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/arm_controller.cpp:35:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kjoint_states_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.762858] (six_axis_pubsub) StderrLine: {'line': b'   35 |             auto it = std::find(\x1b[01;31m\x1b[Kjoint_states_\x1b[m\x1b[K.name.begin(), joint_states_.name.end(), msg->joint_names[i]);\n'}
+[1.762989] (six_axis_pubsub) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.767945] (six_axis_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/arm_controller.cpp:44:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kjoint_states_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.768098] (six_axis_pubsub) StderrLine: {'line': b'   44 |         \x1b[01;31m\x1b[Kjoint_states_\x1b[m\x1b[K.header.stamp = this->get_clock()->now();\n'}
+[1.768229] (six_axis_pubsub) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.776733] (six_axis_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/arm_controller.cpp:45:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kjoint_state_publisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.776995] (six_axis_pubsub) StderrLine: {'line': b'   45 |         \x1b[01;31m\x1b[Kjoint_state_publisher_\x1b[m\x1b[K->publish(joint_states_);\n'}
+[1.777131] (six_axis_pubsub) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.777263] (six_axis_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/arm_controller.cpp:\x1b[m\x1b[K At global scope:\n'}
+[1.777420] (six_axis_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/arm_controller.cpp:56:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kspecializing member \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Subscription<trajectory_msgs::msg::JointTrajectory_<std::allocator<void> >, std::allocator<void>, trajectory_msgs::msg::JointTrajectory_<std::allocator<void> >, trajectory_msgs::msg::JointTrajectory_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<trajectory_msgs::msg::JointTrajectory_<std::allocator<void> >, std::allocator<void> > >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 requires \xe2\x80\x98\x1b[01m\x1b[Ktemplate<>\x1b[m\x1b[K\xe2\x80\x99 syntax\n'}
+[1.777578] (six_axis_pubsub) StderrLine: {'line': b'   56 |     \x1b[01;31m\x1b[Krclcpp\x1b[m\x1b[K::Subscription<trajectory_msgs::msg::JointTrajectory>::SharedPtr subscription_;\n'}
+[1.777712] (six_axis_pubsub) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.779269] (six_axis_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/arm_controller.cpp:59:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.779441] (six_axis_pubsub) StderrLine: {'line': b'   59 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[1.779580] (six_axis_pubsub) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.804977] (-) TimerEvent: {}
+[1.905278] (-) TimerEvent: {}
+[2.005616] (-) TimerEvent: {}
+[2.105930] (-) TimerEvent: {}
+[2.206242] (-) TimerEvent: {}
+[2.306568] (-) TimerEvent: {}
+[2.406868] (-) TimerEvent: {}
+[2.507136] (-) TimerEvent: {}
+[2.607426] (-) TimerEvent: {}
+[2.707675] (-) TimerEvent: {}
+[2.807937] (-) TimerEvent: {}
+[2.908195] (-) TimerEvent: {}
+[3.008479] (-) TimerEvent: {}
+[3.108810] (-) TimerEvent: {}
+[3.209124] (-) TimerEvent: {}
+[3.302891] (six_axis_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable teleop_node\x1b[0m\n'}
+[3.309200] (-) TimerEvent: {}
+[3.315206] (six_axis_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/arm_controller.dir/build.make:76: CMakeFiles/arm_controller.dir/src/arm_controller.cpp.o] Error 1\n'}
+[3.315669] (six_axis_pubsub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/arm_controller.dir/all] Error 2\n'}
+[3.315854] (six_axis_pubsub) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[3.409291] (-) TimerEvent: {}
+[3.464835] (six_axis_pubsub) StdoutLine: {'line': b'[ 75%] Built target teleop_node\n'}
+[3.466269] (six_axis_pubsub) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.469588] (six_axis_pubsub) CommandEnded: {'returncode': 2}
+[3.477718] (six_axis_pubsub) JobEnded: {'identifier': 'six_axis_pubsub', 'rc': 2}
+[3.487949] (-) EventReactorShutdown: {}

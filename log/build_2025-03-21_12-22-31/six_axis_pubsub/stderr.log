@@ -1,0 +1,38 @@
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/arm_controller.cpp:50:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_states_[m[K’ does not name a type
+   50 |     [01;31m[Kjoint_states_[m[K.header.stamp = this->get_clock()->now();
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/arm_controller.cpp:51:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_state_publisher_[m[K’ does not name a type
+   51 |     [01;31m[Kjoint_state_publisher_[m[K->publish(joint_states_);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/arm_controller.cpp:[m[K In constructor ‘[01m[KArmController::[01;32m[KArmController[m[K()[m[K’:
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/arm_controller.cpp:11:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   11 |         [01;31m[Ksubscription_[m[K = this->create_subscription<trajectory_msgs::msg::JointTrajectory>(
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+      |         [32m[Krmw_subscription_t[m[K
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/arm_controller.cpp:16:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_state_publisher_[m[K’ was not declared in this scope
+   16 |         [01;31m[Kjoint_state_publisher_[m[K = this->create_publisher<sensor_msgs::msg::JointState>("/joint_states", 10);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/arm_controller.cpp:19:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_states_[m[K’ was not declared in this scope
+   19 |         [01;31m[Kjoint_states_[m[K.name = {"joint_1", "joint_2", "joint_3", "joint_4", "joint_5", "joint_6"};
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/arm_controller.cpp:[m[K In member function ‘[01m[Kvoid ArmController::[01;32m[Ktrajectory_callback[m[K(trajectory_msgs::msg::JointTrajectory_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/arm_controller.cpp:35:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_states_[m[K’ was not declared in this scope
+   35 |             auto it = std::find([01;31m[Kjoint_states_[m[K.name.begin(), joint_states_.name.end(), msg->joint_names[i]);
+      |                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/arm_controller.cpp:44:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_states_[m[K’ was not declared in this scope
+   44 |         [01;31m[Kjoint_states_[m[K.header.stamp = this->get_clock()->now();
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/arm_controller.cpp:45:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_state_publisher_[m[K’ was not declared in this scope
+   45 |         [01;31m[Kjoint_state_publisher_[m[K->publish(joint_states_);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/arm_controller.cpp:[m[K At global scope:
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/arm_controller.cpp:56:5:[m[K [01;31m[Kerror: [m[Kspecializing member ‘[01m[Krclcpp::Subscription<trajectory_msgs::msg::JointTrajectory_<std::allocator<void> >, std::allocator<void>, trajectory_msgs::msg::JointTrajectory_<std::allocator<void> >, trajectory_msgs::msg::JointTrajectory_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<trajectory_msgs::msg::JointTrajectory_<std::allocator<void> >, std::allocator<void> > >::SharedPtr[m[K’ requires ‘[01m[Ktemplate<>[m[K’ syntax
+   56 |     [01;31m[Krclcpp[m[K::Subscription<trajectory_msgs::msg::JointTrajectory>::SharedPtr subscription_;
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/arm_controller.cpp:59:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   59 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/arm_controller.dir/build.make:76: CMakeFiles/arm_controller.dir/src/arm_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/arm_controller.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

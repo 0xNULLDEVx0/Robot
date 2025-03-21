@@ -1,0 +1,153 @@
+[0.000000] (-) TimerEvent: {}
+[0.000411] (six_axis_pubsub) JobQueued: {'identifier': 'six_axis_pubsub', 'dependencies': OrderedDict()}
+[0.000632] (six_axis_pubsub) JobStarted: {'identifier': 'six_axis_pubsub'}
+[0.007615] (six_axis_pubsub) JobProgress: {'identifier': 'six_axis_pubsub', 'progress': 'cmake'}
+[0.007987] (six_axis_pubsub) Command: {'cmd': ['/usr/bin/cmake', '/home/master/Documents/Code/learnRos/src/six_axis_pubsub', '-DCMAKE_INSTALL_PREFIX=/home/master/Documents/Code/learnRos/install/six_axis_pubsub'], 'cwd': '/home/master/Documents/Code/learnRos/build/six_axis_pubsub', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'master', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib::/home/master/.local/share/JetBrains/Toolbox/apps/fleet/lib/app', 'HOME': '/home/master', 'TERM_PROGRAM_VERSION': '1.46.97', 'DESKTOP_SESSION': 'ubuntu', '_INTELLIJ_FORCE_SET_FLEET_WORKSPACE_ID': 'hgbuta5o2njfhi71tlh7', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/master/.local/share/applications/jetbrains-fleet.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '3267', 'FLEET_WORKSPACE_ID': 'hgbuta5o2njfhi71tlh7', 'SYSTEMD_EXEC_PID': '3693', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '47740', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'master', 'WINDOWID': '0', 'JOURNAL_STREAM': '9:16147', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'master', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'HISTCONTROL': 'ignoredups:', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/master/.local/share/JetBrains/Toolbox/scripts:/home/master/.local/share/JetBrains/Toolbox/scripts', 'SESSION_MANAGER': 'local/penguin-master:@/tmp/.ICE-unix/3662,unix/penguin-master:/tmp/.ICE-unix/3662', 'INVOCATION_ID': '39197631037541e39a520170e160a663', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', '_JPACKAGE_LAUNCHER': '0', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'TERM_PROGRAM': 'Jetbrains.Fleet', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'ALACRITTY_WINDOW_ID': '0', 'PWD': '/home/master/Documents/Code/learnRos/build/six_axis_pubsub', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/master/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.069046] (six_axis_pubsub) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.099789] (-) TimerEvent: {}
+[0.121626] (six_axis_pubsub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.144006] (six_axis_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199903] (-) TimerEvent: {}
+[0.236545] (six_axis_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.245409] (six_axis_pubsub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.245626] (six_axis_pubsub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.245970] (six_axis_pubsub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.257396] (six_axis_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299989] (-) TimerEvent: {}
+[0.364345] (six_axis_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.381803] (six_axis_pubsub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.382290] (six_axis_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.383087] (six_axis_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.388512] (six_axis_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.400061] (-) TimerEvent: {}
+[0.500292] (-) TimerEvent: {}
+[0.534350] (six_axis_pubsub) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.600369] (-) TimerEvent: {}
+[0.647356] (six_axis_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.688167] (six_axis_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.700447] (-) TimerEvent: {}
+[0.701019] (six_axis_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.715822] (six_axis_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.732506] (six_axis_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.800528] (-) TimerEvent: {}
+[0.804284] (six_axis_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.806916] (six_axis_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.896170] (six_axis_pubsub) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[0.900607] (-) TimerEvent: {}
+[0.915057] (six_axis_pubsub) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[0.938468] (six_axis_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.000689] (-) TimerEvent: {}
+[1.007406] (six_axis_pubsub) StdoutLine: {'line': b'-- Found trajectory_msgs: 5.3.5 (/opt/ros/jazzy/share/trajectory_msgs/cmake)\n'}
+[1.060735] (six_axis_pubsub) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[1.086362] (six_axis_pubsub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.100771] (-) TimerEvent: {}
+[1.174565] (six_axis_pubsub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.174873] (six_axis_pubsub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.175051] (six_axis_pubsub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.175433] (six_axis_pubsub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.176601] (six_axis_pubsub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.176752] (six_axis_pubsub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.177193] (six_axis_pubsub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.178758] (six_axis_pubsub) StdoutLine: {'line': b'-- Configuring done (1.2s)\n'}
+[1.194498] (six_axis_pubsub) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.199627] (six_axis_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/master/Documents/Code/learnRos/build/six_axis_pubsub\n'}
+[1.200840] (-) TimerEvent: {}
+[1.209592] (six_axis_pubsub) CommandEnded: {'returncode': 0}
+[1.210700] (six_axis_pubsub) JobProgress: {'identifier': 'six_axis_pubsub', 'progress': 'build'}
+[1.210740] (six_axis_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/master/Documents/Code/learnRos/build/six_axis_pubsub', '--', '-j48', '-l48'], 'cwd': '/home/master/Documents/Code/learnRos/build/six_axis_pubsub', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'master', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib::/home/master/.local/share/JetBrains/Toolbox/apps/fleet/lib/app', 'HOME': '/home/master', 'TERM_PROGRAM_VERSION': '1.46.97', 'DESKTOP_SESSION': 'ubuntu', '_INTELLIJ_FORCE_SET_FLEET_WORKSPACE_ID': 'hgbuta5o2njfhi71tlh7', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/master/.local/share/applications/jetbrains-fleet.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '3267', 'FLEET_WORKSPACE_ID': 'hgbuta5o2njfhi71tlh7', 'SYSTEMD_EXEC_PID': '3693', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '47740', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'master', 'WINDOWID': '0', 'JOURNAL_STREAM': '9:16147', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'master', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'HISTCONTROL': 'ignoredups:', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/master/.local/share/JetBrains/Toolbox/scripts:/home/master/.local/share/JetBrains/Toolbox/scripts', 'SESSION_MANAGER': 'local/penguin-master:@/tmp/.ICE-unix/3662,unix/penguin-master:/tmp/.ICE-unix/3662', 'INVOCATION_ID': '39197631037541e39a520170e160a663', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', '_JPACKAGE_LAUNCHER': '0', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'TERM_PROGRAM': 'Jetbrains.Fleet', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'ALACRITTY_WINDOW_ID': '0', 'PWD': '/home/master/Documents/Code/learnRos/build/six_axis_pubsub', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/master/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.266565] (six_axis_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/teleop_node.dir/src/teleop_node.cpp.o\x1b[0m\n'}
+[1.266746] (six_axis_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/arm_controller.dir/src/arm_controller.cpp.o\x1b[0m\n'}
+[1.300923] (-) TimerEvent: {}
+[1.401170] (-) TimerEvent: {}
+[1.501479] (-) TimerEvent: {}
+[1.601815] (-) TimerEvent: {}
+[1.702166] (-) TimerEvent: {}
+[1.802465] (-) TimerEvent: {}
+[1.902784] (-) TimerEvent: {}
+[2.003101] (-) TimerEvent: {}
+[2.103431] (-) TimerEvent: {}
+[2.203741] (-) TimerEvent: {}
+[2.304052] (-) TimerEvent: {}
+[2.404403] (-) TimerEvent: {}
+[2.504717] (-) TimerEvent: {}
+[2.605027] (-) TimerEvent: {}
+[2.705423] (-) TimerEvent: {}
+[2.805743] (-) TimerEvent: {}
+[2.906058] (-) TimerEvent: {}
+[3.006387] (-) TimerEvent: {}
+[3.106693] (-) TimerEvent: {}
+[3.206995] (-) TimerEvent: {}
+[3.307321] (-) TimerEvent: {}
+[3.407626] (-) TimerEvent: {}
+[3.507934] (-) TimerEvent: {}
+[3.608278] (-) TimerEvent: {}
+[3.708597] (-) TimerEvent: {}
+[3.808911] (-) TimerEvent: {}
+[3.909209] (-) TimerEvent: {}
+[4.009505] (-) TimerEvent: {}
+[4.109800] (-) TimerEvent: {}
+[4.210100] (-) TimerEvent: {}
+[4.310414] (-) TimerEvent: {}
+[4.410706] (-) TimerEvent: {}
+[4.495253] (six_axis_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable teleop_node\x1b[0m\n'}
+[4.510779] (-) TimerEvent: {}
+[4.610972] (-) TimerEvent: {}
+[4.648782] (six_axis_pubsub) StdoutLine: {'line': b'[ 75%] Built target teleop_node\n'}
+[4.711060] (-) TimerEvent: {}
+[4.811297] (-) TimerEvent: {}
+[4.911489] (-) TimerEvent: {}
+[5.011693] (-) TimerEvent: {}
+[5.111924] (-) TimerEvent: {}
+[5.212172] (-) TimerEvent: {}
+[5.312474] (-) TimerEvent: {}
+[5.412732] (-) TimerEvent: {}
+[5.512938] (-) TimerEvent: {}
+[5.613157] (-) TimerEvent: {}
+[5.713367] (-) TimerEvent: {}
+[5.813604] (-) TimerEvent: {}
+[5.913826] (-) TimerEvent: {}
+[6.013957] (-) TimerEvent: {}
+[6.114100] (-) TimerEvent: {}
+[6.214365] (-) TimerEvent: {}
+[6.314720] (-) TimerEvent: {}
+[6.415021] (-) TimerEvent: {}
+[6.515276] (-) TimerEvent: {}
+[6.615485] (-) TimerEvent: {}
+[6.715642] (-) TimerEvent: {}
+[6.815845] (-) TimerEvent: {}
+[6.916090] (-) TimerEvent: {}
+[7.016322] (-) TimerEvent: {}
+[7.116553] (-) TimerEvent: {}
+[7.216810] (-) TimerEvent: {}
+[7.317066] (-) TimerEvent: {}
+[7.329880] (six_axis_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable arm_controller\x1b[0m\n'}
+[7.417180] (-) TimerEvent: {}
+[7.517452] (-) TimerEvent: {}
+[7.594920] (six_axis_pubsub) StdoutLine: {'line': b'[100%] Built target arm_controller\n'}
+[7.607915] (six_axis_pubsub) CommandEnded: {'returncode': 0}
+[7.608620] (six_axis_pubsub) JobProgress: {'identifier': 'six_axis_pubsub', 'progress': 'install'}
+[7.617521] (-) TimerEvent: {}
+[7.618627] (six_axis_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/master/Documents/Code/learnRos/build/six_axis_pubsub'], 'cwd': '/home/master/Documents/Code/learnRos/build/six_axis_pubsub', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'master', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib::/home/master/.local/share/JetBrains/Toolbox/apps/fleet/lib/app', 'HOME': '/home/master', 'TERM_PROGRAM_VERSION': '1.46.97', 'DESKTOP_SESSION': 'ubuntu', '_INTELLIJ_FORCE_SET_FLEET_WORKSPACE_ID': 'hgbuta5o2njfhi71tlh7', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/master/.local/share/applications/jetbrains-fleet.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '3267', 'FLEET_WORKSPACE_ID': 'hgbuta5o2njfhi71tlh7', 'SYSTEMD_EXEC_PID': '3693', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '47740', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'master', 'WINDOWID': '0', 'JOURNAL_STREAM': '9:16147', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'master', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'HISTCONTROL': 'ignoredups:', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/master/.local/share/JetBrains/Toolbox/scripts:/home/master/.local/share/JetBrains/Toolbox/scripts', 'SESSION_MANAGER': 'local/penguin-master:@/tmp/.ICE-unix/3662,unix/penguin-master:/tmp/.ICE-unix/3662', 'INVOCATION_ID': '39197631037541e39a520170e160a663', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', '_JPACKAGE_LAUNCHER': '0', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'TERM_PROGRAM': 'Jetbrains.Fleet', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'ALACRITTY_WINDOW_ID': '0', 'PWD': '/home/master/Documents/Code/learnRos/build/six_axis_pubsub', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/master/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[7.626985] (six_axis_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.627198] (six_axis_pubsub) StdoutLine: {'line': b'-- Installing: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/lib/six_axis_pubsub/arm_controller\n'}
+[7.632873] (six_axis_pubsub) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/master/Documents/Code/learnRos/install/six_axis_pubsub/lib/six_axis_pubsub/arm_controller" to ""\n'}
+[7.633062] (six_axis_pubsub) StdoutLine: {'line': b'-- Installing: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/lib/six_axis_pubsub/teleop_node\n'}
+[7.634641] (six_axis_pubsub) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/master/Documents/Code/learnRos/install/six_axis_pubsub/lib/six_axis_pubsub/teleop_node" to ""\n'}
+[7.634823] (six_axis_pubsub) StdoutLine: {'line': b'-- Installing: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/ament_index/resource_index/package_run_dependencies/six_axis_pubsub\n'}
+[7.635126] (six_axis_pubsub) StdoutLine: {'line': b'-- Installing: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/ament_index/resource_index/parent_prefix_path/six_axis_pubsub\n'}
+[7.635408] (six_axis_pubsub) StdoutLine: {'line': b'-- Installing: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/environment/ament_prefix_path.sh\n'}
+[7.635575] (six_axis_pubsub) StdoutLine: {'line': b'-- Installing: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/environment/ament_prefix_path.dsv\n'}
+[7.635730] (six_axis_pubsub) StdoutLine: {'line': b'-- Installing: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/environment/path.sh\n'}
+[7.635871] (six_axis_pubsub) StdoutLine: {'line': b'-- Installing: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/environment/path.dsv\n'}
+[7.636017] (six_axis_pubsub) StdoutLine: {'line': b'-- Installing: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/local_setup.bash\n'}
+[7.636190] (six_axis_pubsub) StdoutLine: {'line': b'-- Installing: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/local_setup.sh\n'}
+[7.636330] (six_axis_pubsub) StdoutLine: {'line': b'-- Installing: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/local_setup.zsh\n'}
+[7.636476] (six_axis_pubsub) StdoutLine: {'line': b'-- Installing: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/local_setup.dsv\n'}
+[7.636624] (six_axis_pubsub) StdoutLine: {'line': b'-- Installing: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/package.dsv\n'}
+[7.636821] (six_axis_pubsub) StdoutLine: {'line': b'-- Installing: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/ament_index/resource_index/packages/six_axis_pubsub\n'}
+[7.637034] (six_axis_pubsub) StdoutLine: {'line': b'-- Installing: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/cmake/six_axis_pubsubConfig.cmake\n'}
+[7.637179] (six_axis_pubsub) StdoutLine: {'line': b'-- Installing: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/cmake/six_axis_pubsubConfig-version.cmake\n'}
+[7.637327] (six_axis_pubsub) StdoutLine: {'line': b'-- Installing: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/package.xml\n'}
+[7.639281] (six_axis_pubsub) CommandEnded: {'returncode': 0}
+[7.654361] (six_axis_pubsub) JobEnded: {'identifier': 'six_axis_pubsub', 'rc': 0}
+[7.655048] (-) EventReactorShutdown: {}

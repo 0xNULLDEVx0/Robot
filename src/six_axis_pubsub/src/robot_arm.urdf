@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<robot name="robot_name">
+  <!-- Base Link -->
+  <link name="base_link"/>
+
+  <!-- Links and Joints -->
+  <link name="link_1">
+    <visual>
+      <geometry>
+        <cylinder length="0.2" radius="0.05"/>
+      </geometry>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+  </link>
+  <joint name="joint_1" type="revolute">
+    <parent link="base_link"/>
+    <child link="link_1"/>
+    <origin xyz="0 0 0.1" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.14" upper="3.14" effort="10" velocity="1.0"/>
+    <ros2_control>
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </ros2_control>
+  </joint>
+
+  <link name="link_2">
+    <visual>
+      <geometry>
+        <cylinder length="0.2" radius="0.05"/>
+      </geometry>
+      <material name="green">
+        <color rgba="0 1 0 1"/>
+      </material>
+    </visual>
+  </link>
+  <joint name="joint_2" type="revolute">
+    <parent link="link_1"/>
+    <child link="link_2"/>
+    <origin xyz="0 0 0.2" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="-1.5" upper="1.5" effort="10" velocity="1.0"/>
+    <ros2_control>
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </ros2_control>
+  </joint>
+
+  <link name="link_3">
+    <visual>
+      <geometry>
+        <cylinder length="0.2" radius="0.05"/>
+      </geometry>
+      <material name="blue">
+        <color rgba="0 0 1 1"/>
+      </material>
+    </visual>
+  </link>
+  <joint name="joint_3" type="revolute">
+    <parent link="link_2"/>
+    <child link="link_3"/>
+    <origin xyz="0 0 0.2" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.14" upper="3.14" effort="10" velocity="1.0"/>
+    <ros2_control>
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </ros2_control>
+  </joint>
+
+  <link name="link_4">
+    <visual>
+      <geometry>
+        <cylinder length="0.2" radius="0.05"/>
+      </geometry>
+      <material name="yellow">
+        <color rgba="1 1 0 1"/>
+      </material>
+    </visual>
+  </link>
+  <joint name="joint_4" type="revolute">
+    <parent link="link_3"/>
+    <child link="link_4"/>
+    <origin xyz="0 0 0.2" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="-1.5" upper="1.5" effort="10" velocity="1.0"/>
+    <ros2_control>
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </ros2_control>
+  </joint>
+
+  <link name="link_5">
+    <visual>
+      <geometry>
+        <cylinder length="0.2" radius="0.05"/>
+      </geometry>
+      <material name="purple">
+        <color rgba="1 0 1 1"/>
+      </material>
+    </visual>
+  </link>
+  <joint name="joint_5" type="revolute">
+    <parent link="link_4"/>
+    <child link="link_5"/>
+    <origin xyz="0 0 0.2" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.14" upper="3.14" effort="10" velocity="1.0"/>
+    <ros2_control>
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </ros2_control>
+  </joint>
+
+  <link name="link_6">
+    <visual>
+      <geometry>
+        <cylinder length="0.2" radius="0.05"/>
+      </geometry>
+      <material name="cyan">
+        <color rgba="0 1 1 1"/>
+      </material>
+    </visual>
+  </link>
+  <joint name="joint_6" type="revolute">
+    <parent link="link_5"/>
+    <child link="link_6"/>
+    <origin xyz="0 0 0.2" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="-3.14" upper="3.14" effort="10" velocity="1.0"/>
+    <ros2_control>
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </ros2_control>
+  </joint>
+</robot>

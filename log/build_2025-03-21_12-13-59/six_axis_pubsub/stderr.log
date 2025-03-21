@@ -1,0 +1,125 @@
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K input_loop[m[K()[m[K’:
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:3:12:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+    3 |     while ([01;31m[Krclcpp[m[K::ok())
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:5:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ is not a member of ‘[01m[Kstd[m[K’
+    5 |         std::[01;31m[Kcout[m[K << "Select a joint (1-" << joint_names_.size() << "): ";
+      |              [01;31m[K^~~~[m[K
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ is defined in header ‘[01m[K<iostream>[m[K’; did you forget to ‘[01m[K#include <iostream>[m[K’?
+  +++ |+[32m[K#include <iostream>[m[K
+    1 | void input_loop()
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:5:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_names_[m[K’ was not declared in this scope
+    5 |         std::cout << "Select a joint (1-" << [01;31m[Kjoint_names_[m[K.size() << "): ";
+      |                                              [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:7:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kcin[m[K’ is not a member of ‘[01m[Kstd[m[K’
+    7 |         std::[01;31m[Kcin[m[K >> joint;
+      |              [01;31m[K^~~[m[K
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:7:14:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cin[m[K’ is defined in header ‘[01m[K<iostream>[m[K’; did you forget to ‘[01m[K#include <iostream>[m[K’?
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:11:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   11 |             std::[01;31m[Kcout[m[K << "Invalid joint number. Please select between 1 and " << joint_names_.size() << "." << std::endl;
+      |                  [01;31m[K^~~~[m[K
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:11:18:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ is defined in header ‘[01m[K<iostream>[m[K’; did you forget to ‘[01m[K#include <iostream>[m[K’?
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:11:117:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   11 |             std::cout << "Invalid joint number. Please select between 1 and " << joint_names_.size() << "." << std::[01;31m[Kendl[m[K;
+      |                                                                                                                     [01;31m[K^~~~[m[K
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::endl[m[K’ is defined in header ‘[01m[K<ostream>[m[K’; did you forget to ‘[01m[K#include <ostream>[m[K’?
+  +++ |+[32m[K#include <ostream>[m[K
+    1 | void input_loop()
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:15:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kselected_joint_[m[K’ was not declared in this scope
+   15 |         [01;31m[Kselected_joint_[m[K = joint - 1; // Convert to zero-based index
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:16:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   16 |         std::[01;31m[Kcout[m[K << "Selected joint: " << joint_names_[selected_joint_] << std::endl;
+      |              [01;31m[K^~~~[m[K
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:16:14:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ is defined in header ‘[01m[K<iostream>[m[K’; did you forget to ‘[01m[K#include <iostream>[m[K’?
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:16:82:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   16 |         std::cout << "Selected joint: " << joint_names_[selected_joint_] << std::[01;31m[Kendl[m[K;
+      |                                                                                  [01;31m[K^~~~[m[K
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:16:82:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::endl[m[K’ is defined in header ‘[01m[K<ostream>[m[K’; did you forget to ‘[01m[K#include <ostream>[m[K’?
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:21:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   21 |             std::[01;31m[Kcout[m[K << "Press 'w' to raise the joint, 's' to lower the joint, 'a' to rotate left, 'd' to rotate right, 'q' to quit: ";
+      |                  [01;31m[K^~~~[m[K
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:21:18:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ is defined in header ‘[01m[K<iostream>[m[K’; did you forget to ‘[01m[K#include <iostream>[m[K’?
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:22:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kcin[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   22 |             std::[01;31m[Kcin[m[K >> command;
+      |                  [01;31m[K^~~[m[K
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:22:18:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cin[m[K’ is defined in header ‘[01m[K<iostream>[m[K’; did you forget to ‘[01m[K#include <iostream>[m[K’?
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:26:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_positions_[m[K’ was not declared in this scope
+   26 |                 [01;31m[Kjoint_positions_[m[K[selected_joint_] += 0.1;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:27:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_limits_[m[K’ was not declared in this scope
+   27 |                 if (joint_positions_[selected_joint_] > [01;31m[Kjoint_limits_[m[K[selected_joint_].upper)
+      |                                                         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:30:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   30 |                     std::[01;31m[Kcout[m[K << "Reached upper limit for " << joint_names_[selected_joint_] << std::endl;
+      |                          [01;31m[K^~~~[m[K
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:30:26:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ is defined in header ‘[01m[K<iostream>[m[K’; did you forget to ‘[01m[K#include <iostream>[m[K’?
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:30:102:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   30 |                     std::cout << "Reached upper limit for " << joint_names_[selected_joint_] << std::[01;31m[Kendl[m[K;
+      |                                                                                                      [01;31m[K^~~~[m[K
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:30:102:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::endl[m[K’ is defined in header ‘[01m[K<ostream>[m[K’; did you forget to ‘[01m[K#include <ostream>[m[K’?
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:32:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublish_trajectory[m[K’ was not declared in this scope
+   32 |                 [01;31m[Kpublish_trajectory[m[K();
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:36:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_positions_[m[K’ was not declared in this scope
+   36 |                 [01;31m[Kjoint_positions_[m[K[selected_joint_] -= 0.1;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:37:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_limits_[m[K’ was not declared in this scope
+   37 |                 if (joint_positions_[selected_joint_] < [01;31m[Kjoint_limits_[m[K[selected_joint_].lower)
+      |                                                         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:40:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   40 |                     std::[01;31m[Kcout[m[K << "Reached lower limit for " << joint_names_[selected_joint_] << std::endl;
+      |                          [01;31m[K^~~~[m[K
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:40:26:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ is defined in header ‘[01m[K<iostream>[m[K’; did you forget to ‘[01m[K#include <iostream>[m[K’?
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:40:102:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   40 |                     std::cout << "Reached lower limit for " << joint_names_[selected_joint_] << std::[01;31m[Kendl[m[K;
+      |                                                                                                      [01;31m[K^~~~[m[K
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:40:102:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::endl[m[K’ is defined in header ‘[01m[K<ostream>[m[K’; did you forget to ‘[01m[K#include <ostream>[m[K’?
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:42:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublish_trajectory[m[K’ was not declared in this scope
+   42 |                 [01;31m[Kpublish_trajectory[m[K();
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:46:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_positions_[m[K’ was not declared in this scope
+   46 |                 [01;31m[Kjoint_positions_[m[K[selected_joint_] -= 0.1;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:47:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_limits_[m[K’ was not declared in this scope
+   47 |                 if (joint_positions_[selected_joint_] < [01;31m[Kjoint_limits_[m[K[selected_joint_].lower)
+      |                                                         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:50:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   50 |                     std::[01;31m[Kcout[m[K << "Reached lower limit for " << joint_names_[selected_joint_] << std::endl;
+      |                          [01;31m[K^~~~[m[K
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:50:26:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ is defined in header ‘[01m[K<iostream>[m[K’; did you forget to ‘[01m[K#include <iostream>[m[K’?
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:50:102:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   50 |                     std::cout << "Reached lower limit for " << joint_names_[selected_joint_] << std::[01;31m[Kendl[m[K;
+      |                                                                                                      [01;31m[K^~~~[m[K
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:50:102:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::endl[m[K’ is defined in header ‘[01m[K<ostream>[m[K’; did you forget to ‘[01m[K#include <ostream>[m[K’?
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:52:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublish_trajectory[m[K’ was not declared in this scope
+   52 |                 [01;31m[Kpublish_trajectory[m[K();
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:56:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_positions_[m[K’ was not declared in this scope
+   56 |                 [01;31m[Kjoint_positions_[m[K[selected_joint_] += 0.1;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:57:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_limits_[m[K’ was not declared in this scope
+   57 |                 if (joint_positions_[selected_joint_] > [01;31m[Kjoint_limits_[m[K[selected_joint_].upper)
+      |                                                         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:60:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   60 |                     std::[01;31m[Kcout[m[K << "Reached upper limit for " << joint_names_[selected_joint_] << std::endl;
+      |                          [01;31m[K^~~~[m[K
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:60:26:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ is defined in header ‘[01m[K<iostream>[m[K’; did you forget to ‘[01m[K#include <iostream>[m[K’?
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:60:102:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   60 |                     std::cout << "Reached upper limit for " << joint_names_[selected_joint_] << std::[01;31m[Kendl[m[K;
+      |                                                                                                      [01;31m[K^~~~[m[K
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:60:102:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::endl[m[K’ is defined in header ‘[01m[K<ostream>[m[K’; did you forget to ‘[01m[K#include <ostream>[m[K’?
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:62:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublish_trajectory[m[K’ was not declared in this scope
+   62 |                 [01;31m[Kpublish_trajectory[m[K();
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:70:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   70 |                 std::[01;31m[Kcout[m[K << "Invalid command. Use 'w', 's', 'a', 'd', or 'q'." << std::endl;
+      |                      [01;31m[K^~~~[m[K
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:70:22:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ is defined in header ‘[01m[K<iostream>[m[K’; did you forget to ‘[01m[K#include <iostream>[m[K’?
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:70:89:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   70 |                 std::cout << "Invalid command. Use 'w', 's', 'a', 'd', or 'q'." << std::[01;31m[Kendl[m[K;
+      |                                                                                         [01;31m[K^~~~[m[K
+[01m[K/home/master/Documents/Code/learnRos/src/six_axis_pubsub/src/teleop_node.cpp:70:89:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::endl[m[K’ is defined in header ‘[01m[K<ostream>[m[K’; did you forget to ‘[01m[K#include <ostream>[m[K’?
+gmake[2]: *** [CMakeFiles/teleop_node.dir/build.make:76: CMakeFiles/teleop_node.dir/src/teleop_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/teleop_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

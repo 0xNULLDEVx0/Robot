@@ -1,0 +1,17 @@
+/home/master/Documents/Code/learnRos/install/six_axis_pubsub/lib/six_axis_pubsub/arm_controller
+/home/master/Documents/Code/learnRos/install/six_axis_pubsub/lib/six_axis_pubsub/teleop_node
+/home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/ament_index/resource_index/package_run_dependencies/six_axis_pubsub
+/home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/ament_index/resource_index/parent_prefix_path/six_axis_pubsub
+/home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/environment/ament_prefix_path.sh
+/home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/environment/ament_prefix_path.dsv
+/home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/environment/path.sh
+/home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/environment/path.dsv
+/home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/local_setup.bash
+/home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/local_setup.sh
+/home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/local_setup.zsh
+/home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/local_setup.dsv
+/home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/package.dsv
+/home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/ament_index/resource_index/packages/six_axis_pubsub
+/home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/cmake/six_axis_pubsubConfig.cmake
+/home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/cmake/six_axis_pubsubConfig-version.cmake
+/home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/package.xml

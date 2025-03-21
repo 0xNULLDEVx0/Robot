@@ -1,0 +1,28 @@
+[0.010s] Invoking command in '/home/master/Documents/Code/learnRos/build/six_axis_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/master/Documents/Code/learnRos/build/six_axis_pubsub -- -j48 -l48
+[0.088s] [ 50%] Built target teleop_node
+[0.088s] [ 75%] [32mBuilding CXX object CMakeFiles/arm_controller.dir/src/arm_controller.cpp.o[0m
+[6.115s] [100%] [32m[1mLinking CXX executable arm_controller[0m
+[6.401s] [100%] Built target arm_controller
+[6.415s] Invoked command in '/home/master/Documents/Code/learnRos/build/six_axis_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/master/Documents/Code/learnRos/build/six_axis_pubsub -- -j48 -l48
+[6.428s] Invoking command in '/home/master/Documents/Code/learnRos/build/six_axis_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/master/Documents/Code/learnRos/build/six_axis_pubsub
+[6.436s] -- Install configuration: ""
+[6.436s] -- Installing: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/lib/six_axis_pubsub/arm_controller
+[6.446s] -- Set non-toolchain portion of runtime path of "/home/master/Documents/Code/learnRos/install/six_axis_pubsub/lib/six_axis_pubsub/arm_controller" to ""
+[6.446s] -- Installing: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/lib/six_axis_pubsub/teleop_node
+[6.448s] -- Set non-toolchain portion of runtime path of "/home/master/Documents/Code/learnRos/install/six_axis_pubsub/lib/six_axis_pubsub/teleop_node" to ""
+[6.449s] -- Up-to-date: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/ament_index/resource_index/package_run_dependencies/six_axis_pubsub
+[6.449s] -- Up-to-date: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/ament_index/resource_index/parent_prefix_path/six_axis_pubsub
+[6.449s] -- Up-to-date: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/environment/ament_prefix_path.sh
+[6.449s] -- Up-to-date: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/environment/ament_prefix_path.dsv
+[6.450s] -- Up-to-date: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/environment/path.sh
+[6.450s] -- Up-to-date: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/environment/path.dsv
+[6.450s] -- Up-to-date: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/local_setup.bash
+[6.450s] -- Up-to-date: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/local_setup.sh
+[6.451s] -- Up-to-date: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/local_setup.zsh
+[6.451s] -- Up-to-date: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/local_setup.dsv
+[6.451s] -- Installing: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/package.dsv
+[6.452s] -- Up-to-date: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/ament_index/resource_index/packages/six_axis_pubsub
+[6.452s] -- Up-to-date: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/cmake/six_axis_pubsubConfig.cmake
+[6.453s] -- Up-to-date: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/cmake/six_axis_pubsubConfig-version.cmake
+[6.454s] -- Up-to-date: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/package.xml
+[6.455s] Invoked command in '/home/master/Documents/Code/learnRos/build/six_axis_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/master/Documents/Code/learnRos/build/six_axis_pubsub

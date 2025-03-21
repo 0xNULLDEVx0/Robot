@@ -1,0 +1,23 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/teleop_node.dir/src/teleop_node.cpp.o[0m
+[ 75%] Built target arm_controller
+[100%] [32m[1mLinking CXX executable teleop_node[0m
+[100%] Built target teleop_node
+-- Install configuration: ""
+-- Up-to-date: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/lib/six_axis_pubsub/arm_controller
+-- Installing: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/lib/six_axis_pubsub/teleop_node
+-- Set non-toolchain portion of runtime path of "/home/master/Documents/Code/learnRos/install/six_axis_pubsub/lib/six_axis_pubsub/teleop_node" to ""
+-- Up-to-date: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/ament_index/resource_index/package_run_dependencies/six_axis_pubsub
+-- Up-to-date: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/ament_index/resource_index/parent_prefix_path/six_axis_pubsub
+-- Up-to-date: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/environment/ament_prefix_path.sh
+-- Up-to-date: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/environment/path.sh
+-- Up-to-date: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/environment/path.dsv
+-- Up-to-date: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/local_setup.bash
+-- Up-to-date: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/local_setup.sh
+-- Up-to-date: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/local_setup.zsh
+-- Up-to-date: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/local_setup.dsv
+-- Installing: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/package.dsv
+-- Up-to-date: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/ament_index/resource_index/packages/six_axis_pubsub
+-- Up-to-date: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/cmake/six_axis_pubsubConfig.cmake
+-- Up-to-date: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/cmake/six_axis_pubsubConfig-version.cmake
+-- Up-to-date: /home/master/Documents/Code/learnRos/install/six_axis_pubsub/share/six_axis_pubsub/package.xml

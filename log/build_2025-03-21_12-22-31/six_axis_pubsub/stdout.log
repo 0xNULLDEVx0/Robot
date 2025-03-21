@@ -1,0 +1,4 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/teleop_node.dir/src/teleop_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/arm_controller.dir/src/arm_controller.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable teleop_node[0m
+[ 75%] Built target teleop_node
