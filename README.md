@@ -4,7 +4,7 @@ This application was built with ROS2 jazzy, with dependencies found in a basic R
 
 To get this working, ensure ROS2 is installed then go into the root directory learnRos. Reason for the name is due to my own new discoveries when working with jazzy. Can never stop learning right?
 
-Before anything, you must source the files. run **source install/setup.bash**
+Before anything, you must source the files. run **source install/setup.bash** in the root folder /learnRos.
 
 Run the command **colcon build** in the root directory (/learnRos).
 
@@ -21,6 +21,7 @@ E.g (for my system) /home/user/Documents/Code/learnRos/src/six_axis_pubsub/src/c
 
 When these paths are updated, run colcon build oncemore. Then launch it using the command **ros2 launch six_axis_pubsub robot_launch.py**. You will get an empty view, as well as some sliders to control the joints. The view will be empty, so add the robot by going to Add -> RobotMode. Set the topic description to /robot_description. You should now see the robot arm with multi-colored cylinders. You can control each joint by adjusting the sliders, to test the joint limitations. You can also randomize it if curious.
 ![Screenshot from 2025-03-21 11-56-43](https://github.com/user-attachments/assets/89c279b4-5d30-4185-81f0-03351d61b1fb)
+![image](https://github.com/user-attachments/assets/fcd6953e-a371-40a3-acb4-1ddb6c362acf)
 
 # Test the robot with key commands
 
