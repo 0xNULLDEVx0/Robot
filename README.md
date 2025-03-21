@@ -2,11 +2,11 @@
 
 This application was built with ROS2 jazzy, with dependencies found in a basic ROS2 install.
 
-To get this working, ensure ROS2 is installed then go into the root directory learnRos. Reason for the name is due to my own new discoveries when working with jazzy. Can never stop learning right?
+To get this working, ensure ROS2 is installed then go into the root directory Robot.
 
-Before anything, you must source the files. run **source install/setup.bash** in the root folder /learnRos.
+Before anything, you must source the files. run **source install/setup.bash** in the root folder /Robot.
 
-Run the command **colcon build** in the root directory (/learnRos).
+This program uses cmake cache to make builds run faster, but for the first run you **must** perform a clean build. Run the command **colcon build --cmake-clean-cache** in the root directory (/Robot).
 
 The robot is a 6 DOF robot with links,joints, and limits. The limits are there to prevent the robot from colliding with itself and performing unnatural transformations.
 
@@ -15,8 +15,8 @@ There are two ways to run this, as I was unable to get the GUI and the subscribe
 # Test the robot with the GUI RViz
 
 To test this with the GUI Joint State publisher, go into the build directory where the launch file is located (install/six_axis_pubsub/share/six_axis_pubsub/robot_launch.py)
-Replace the value of the **controller_config** and the **urdf_file_path** to the location on your system. They will be in the src folder of /learnRos/src/six_axis_pubsub/src. In order for the config to be run on a Windows machine (as I am using linux) I left this as an input variable since linux and windows use two different filepath naming conventions. **Copy the full path**
-E.g (for my system) /home/user/Documents/Code/learnRos/src/six_axis_pubsub/src/controller_config.yaml | /home/user/Documents/Code/learnRos/src/six_axis_pubsub/src/robot_arm.urdf
+Replace the value of the **controller_config** and the **urdf_file_path** to the location on your system. They will be in the src folder of /Robot/src/six_axis_pubsub/src. In order for the config to be run on a Windows machine (as I am using linux) I left this as an input variable since linux and windows use two different filepath naming conventions. **Copy the full path**
+E.g (for my system) /home/user/Documents/Code/Robot/src/six_axis_pubsub/src/controller_config.yaml | /home/user/Documents/Code/Robot/src/six_axis_pubsub/src/robot_arm.urdf
 
 
 When these paths are updated, run colcon build oncemore. Then launch it using the command **ros2 launch six_axis_pubsub robot_launch.py**. You will get an empty view, as well as some sliders to control the joints. The view will be empty, so add the robot by going to Add -> RobotMode. Set the topic description to /robot_description. You should now see the robot arm with multi-colored cylinders. You can control each joint by adjusting the sliders, to test the joint limitations. You can also randomize it if curious.
